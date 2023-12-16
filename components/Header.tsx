@@ -60,7 +60,7 @@ const Header: React.FC<HeaderProps> = ({
                                             hover:opacity-75
                                             transition
                             ">
-                                <RxCaretLeft classNanem = "text-white" size = {35}/>
+                                <RxCaretLeft className = "text-white" size = {35}/>
                             </button>
                             <button 
                             onClick ={() => router.forward()}
@@ -73,7 +73,7 @@ const Header: React.FC<HeaderProps> = ({
                                             hover:opacity-75
                                             transition
                             ">
-                                <RxCaretRight classNanem = "text-white" size = {35}/>
+                                <RxCaretRight className = "text-white" size = {35}/>
                             </button>
                     </div>
 
